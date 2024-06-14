@@ -1,0 +1,17 @@
+[
+    {
+        "logo": "./alura_logo1.png",
+        "titulo": "ONE - Oracle Next Education",
+        "descripcion": "2024 - Alura"
+    },
+    {
+        "logo": "./populorum_logore.png",
+        "titulo": "Técnica en Desarrollo Superior de Software",
+        "descripcion": "(2017 - 2020) - IES N°7 'Populorum Progressio In.Te.La'"
+    },
+    {
+        "logo": "./plan111milsa.jpg",
+        "titulo": "Analista del conocimiento - Trayecto programador",
+        "descripcion": "2018 - Ministerio de Educación y Ministerio de Producción de la Nación - Programa 111 mil"
+    }
+]
