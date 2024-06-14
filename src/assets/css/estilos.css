@@ -110,8 +110,7 @@ a {
 
 /* descripcion */
 .title__subsection {
-    text-align: justify;
-    
+    text-align: center;
 }
 
 
@@ -386,7 +385,7 @@ a {
     display: flex;
     flex-direction: column;
 
-    gap: 1em;
+    gap: 1.7em;
     padding: 2em 0;
 }
 
@@ -405,17 +404,19 @@ a {
 .formcontato__textarea{
     background-color: var(--fondoPrincipal);
     border: 2px solid var(--textos);
-    color: var(--textos)
+    color: var(--textos);
+    width: 100%;
 }
 
 .formcontacto__field label {
     position: absolute;
     /* color: gray; */
-    top: 50%;
+    /* top: 50%; */
     left: 15px;
+    background: var(--fondoPrincipal);
     transform: translateY(-50%);
-    pointer-events: none;
-    z-index: 1;
+    /* pointer-events: none; */
+    /* z-index: 1; */
     transition: all .5s ease;
 }
 
@@ -462,6 +463,18 @@ input:focus~label {
 
 .contenedor-Up:hover{
     transform: scale(1.1);
+}
+
+#btn-submit.exit{
+    background: var(--resaltados);
+    border: 2px solid var(--resaltados);
+    color: var(--fodosSecciones);
+}
+
+#btn-submit.fail{
+    background: red;
+    border: 2px solid red;
+    color: var(--textos);
 }
 
 /* pc */
