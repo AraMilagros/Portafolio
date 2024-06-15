@@ -22,7 +22,7 @@ import './assets/css/estilos.css'
 
 export default function App() {
     return (
-        <>
+        <main>
             <Menu />
             <Header />
             
@@ -43,6 +43,6 @@ export default function App() {
             <Footer />
 
             <FlechaUp />
-        </>
+        </main>
     )
 }

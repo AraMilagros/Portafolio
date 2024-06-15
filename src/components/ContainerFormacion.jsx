@@ -8,7 +8,7 @@ export default function ContainerFormacion(props) {
       <h3 className='academic__title'>{props.titulo}</h3>
       <div className='academic__line'>
         {
-          props.lista.map((item, id) => {
+         props.lista.map((item, id) => {
             return <ItemFormacion key={id} logo={item.logo} titulo={item.titulo} descripcion={item.descripcion} />
           })
         }

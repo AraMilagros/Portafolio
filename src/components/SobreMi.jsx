@@ -5,13 +5,13 @@ export default function SobreMi() {
         <div className='about' id="sobre-mi">
             <div className="about__container">
                 <h3 className="about__title">Sobre mi</h3>
-                <p className="about__paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque velit
-                    velit, volutpat semper dignissim dictum, imperdiet ut lacus. Quisque gravida ex a mattis pretium.
-                    Suspendisse potenti. Ut semper sagittis ligula et lacinia. </p> <br />
-                <p className="about__paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque velit
-                    velit, volutpat semper dignissim dictum, imperdiet ut lacus. Quisque gravida ex a mattis pretium.
-                    Suspendisse potenti. Ut semper sagittis ligula et lacinia. Aenean sit amet felis venenatis, egestas
-                    metus vitae, aliquet metus.</p>
+                <p className="about__paragraph">Comencé mi formación con el lenguaje de Java,
+                 desarrollando programas de escritorio y luego un pequeño paso por la facultad, me encontré con 
+                 ReactJs, lo que me llevó a adentrarme al mundo web</p>
+                    <br />
+                <p className="about__paragraph">Mi objetivo es consolidar los conocimientos adquiridos y lograr 
+                replicarlos a resultados tangibles. Me emociona la posibilidad de seguir aprendiendo a mano de nuevos 
+                proyectos.</p>
             </div>
         </div>
 

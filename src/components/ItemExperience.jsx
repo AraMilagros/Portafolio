@@ -12,8 +12,8 @@ export default function ItemExperience(props) {
             {/* <!-- Pon el logotipo/captura de pantalla de tu proyecto --> */}
             <img className="experience__img" src={logo(props.logo)} alt="logo-projects" />
             <div className="experience__info">
-                <h2 className="experience__title">{props.titulo}</h2>
-                <h3 className="experience__text">{props.descripcion}</h3>
+                <h3 className="experience__title">{props.titulo}</h3>
+                <h4 className="experience__text">{props.descripcion}</h4>
                 <div className="experience__description">
                     {/* <!-- Pon el enlace del proyecto en Github o GithubPages --> */}
                     <span className="experience__repo">

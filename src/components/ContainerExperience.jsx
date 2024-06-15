@@ -5,10 +5,10 @@ import ItemExperience from './ItemExperience'
 export default function ContainerExperience(props) {
   return (
     <section className='experience' id="xp">
-        <h2 className='experience__section__title'>{props.titulo}</h2>
+        <h3 className='experience__section__title'>{props.titulo}</h3>
         <div className='experience__box'>
           {
-            props.lista.map((item, id) => {
+           props.lista.map((item, id) => {
               return <ItemExperience key={id} logo={item.logo} titulo={item.titulo} descripcion={item.descripcion} repo={item.repo} demolive={item.demolive} />
             })
           }

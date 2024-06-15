@@ -34,7 +34,7 @@ export default function Menu() {
         <section id="home" className="menu">
             <header className="menu__header">           
                 <i className="fa-brands fa-web-awesome"></i>
-                <h3 className="menu__title">AraMilagros</h3>
+                <label className="menu__title">AraMilagros</label>
             </header>
             <nav>
                 <ul id="listamenu" className="menu__list">

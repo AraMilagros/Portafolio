@@ -10,7 +10,7 @@ export default function ContainerSkill(props) {
             <h3 className='skills__title'>{props.titulo}</h3>            
             <div className="skills__line">
                 {/*     uno de los props pasados desde app era una lista (que contiene datos) y se utilizara
-                    pasando cada uno de los 'campos' como props para el componente ItemSkill
+                   pasando cada uno de los 'campos' como props para el componente ItemSkill
                     
                     Esta forma de trabajar permitirá no repetir codigo identico, donde sólo cambiaría el contenido
                     Es decir en vez de tener:
