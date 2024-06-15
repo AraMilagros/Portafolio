@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import emailjs from '@emailjs/browser';
-import img from '../assets/img/email2.png';
+
+import img1 from '../assets/img/correo.png';
 
 export default function Formulario() {
 
@@ -95,7 +96,7 @@ export default function Formulario() {
     return (
         <div className="formcontacto" id="contacto">
             <div className="formcontacto--esquerda">
-                <img className="formcontato__img" src={img} alt="logo-email" />
+                <img className="formcontato__img" src={img1} alt="Imagen de talha khalil en Pixabay" />
             </div>
 
             <div className="formcontacto__text">

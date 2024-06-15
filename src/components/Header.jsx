@@ -1,13 +1,11 @@
 import React from 'react'
-
-import perfil from '../assets/img/profile.png';
-
+import foto1 from '../assets/img/foto1.jpg';
 
 export default function Header() {
   return (
     <section className="title">
         <div className="title__div">
-            <img className="title__profile" src={perfil} alt="foto de perfil" />
+            <img className="title__profile" src={foto1} alt="foto de perfil" />
             <div className="title__container">
                 <h2 className="title__bio">Hola, mi nombre es <strong>Araceli</strong> Palenque y construyo páginas web</h2>
                 <h3 className="title__subsection">Estoy formada en los lenguajes de programación como Javascript y Java, y
