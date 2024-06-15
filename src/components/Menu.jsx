@@ -28,7 +28,6 @@ const abrirMenu = () => {
     iconClose.style.display="block";
 }
 
-
 export default function Menu() {
     return (
         <section id="home" className="menu">
