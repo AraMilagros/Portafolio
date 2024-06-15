@@ -13,5 +13,5 @@ Comenzó con un challenge de Alura para practicar los conocimientos obtenidos de
 
 ### LINK
 
-- Live Site: [Mi portafolio](https://fourdcardsanimate.netlify.app/)
+- Live Site: [Mi portafolio](https://portafolioaramilagros.netlify.app/)
 

@@ -783,9 +783,6 @@ input:focus~label {
 
 }
 @media (max-width: 428px) {
-    .menu{
-        border:2px solid red;
-    }
     .title__profile{
         display: none;
     }
