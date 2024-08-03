@@ -1,0 +1,14 @@
+.contenedor{
+    border:2px solid white;
+    width: 150px;
+    height: 130px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor i{
+    font-size: 2em;
+}

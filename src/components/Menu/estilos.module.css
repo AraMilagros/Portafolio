@@ -1,0 +1,45 @@
+.div{
+    border:2px solid red;
+    position: static;
+    max-height: 100%;
+    padding: 2em 0;
+    /* margin: 2em; */
+    /* max-width: 135px; */
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: all .5s ease;
+    /* overflow: hidden; */
+}
+
+.colapse{
+    cursor: pointer;
+    padding-left: .5em;
+    font-size: 1.4em;
+}
+
+#categorias{
+    border:2px solid black;
+    width: 130px;
+}
+
+#categorias.active{
+    width: 50px;
+    overflow: hidden;
+}
+
+.categoria__item{
+    padding: 1em .5em;
+    width: 120px;
+    margin: .5em 0;
+
+    display: flex;
+    justify-content: space-between; 
+    cursor: pointer;
+}
+
+.item__icon{
+    font-size: 1.4em;
+}
+
