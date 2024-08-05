@@ -8,7 +8,7 @@ import img3 from '../../assets/img/girl3.png';
 export default function index() {
   return (
 
-    <div className={estilos.contenedor}>
+    <div id="/" className={estilos.contenedor}>
 
       <div className={estilos.contenedor__descripcion}>
         <h2>¡Hola! Mi nombre es <strong>Araceli</strong> y construyo páginas web</h2>

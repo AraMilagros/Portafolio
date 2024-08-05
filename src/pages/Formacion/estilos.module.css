@@ -1,0 +1,5 @@
+.contenedor{
+    border:2px solid blue;
+    width: calc(100vw - 15em);
+    height: 85vh;
+}

@@ -1,6 +1,7 @@
 .contenedor{
     border:2px solid blue;
-    width: 100%;
+    /* width: 100%; */
+    width: calc(100vw - 15em);
     padding: 4em;
     height: 85vh;
     /* margin: 2em; */

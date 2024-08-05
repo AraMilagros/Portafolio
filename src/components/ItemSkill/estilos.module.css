@@ -7,8 +7,18 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    border-radius: 10px;
+    transition: all .5s ease;
 }
+
+.contenedor:hover{
+    transform: scale(1.3);
+    background: white;
+    color: blue;
+}
+
 
 .contenedor i{
     font-size: 2em;
+    margin-bottom: .5em;
 }
