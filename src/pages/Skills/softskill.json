@@ -1,0 +1,27 @@
+[
+    {
+        "logo": "fa-solid fa-people-group",
+        "nombre": "Trabajo en equipo"
+    },
+    {
+        "logo": "fa-regular fa-comments",
+        "nombre": "        Comunicación"
+    },
+    {
+        "logo": "fa-solid fa-ear-listen",
+        "nombre": "Escucha activa"
+    },
+    {
+        "logo": "fa-solid fa-magnifying-glass",
+        "nombre": "Atención al detalle"
+    },
+
+    {
+        "logo": "fa-solid fa-puzzle-piece",
+        "nombre": "Adaptabilidad"
+    },
+    {
+        "logo": "fa-solid fa-person-rays",
+        "nombre": "Resiliencia"
+    }
+]

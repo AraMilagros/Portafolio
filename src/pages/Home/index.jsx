@@ -2,9 +2,6 @@ import React from 'react'
 
 import estilos from './estilos.module.css';
 import img1 from '../../assets/img/girl1c.png';
-import img2 from '../../assets/img/girl2.png';
-import img3 from '../../assets/img/girl3.png';
-
 export default function index() {
   return (
 

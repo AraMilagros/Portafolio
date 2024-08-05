@@ -1,0 +1,30 @@
+[
+    {
+        "logo": "./game.png",
+        "titulo": "Juego del horcadito",
+        "descripcion": "Tecnologías: Reactjs. Realizado para un trabajo de facultad.",
+        "repo": "https://github.com/AraMilagros/FPW-JuegoAhorcadito",
+        "demolive": "https://game-ahorcadito.netlify.app/"
+    },
+    {
+        "logo": "./encriptador.png",
+        "titulo": "Encriptador de texto",
+        "descripcion": "Tecnologías: HTML, CSS y Javascript. Challenge Oracle.",
+        "repo": "https://github.com/AraMilagros/AraMilagros.github.io",
+        "demolive": "https://aramilagros.github.io/"
+    },
+    {
+        "logo": "./social.png",
+        "titulo": "Dashboard social media",
+        "descripcion": "Tecnologías: HTML, CSS, Javascript, Reactjs. Challenge Frontend Mentor.",
+        "repo": "https://github.com/AraMilagros/Dashboard-social-media",
+        "demolive": "https://social-media90.netlify.app/"
+    },
+    {
+        "logo": "./loopstudios.png",
+        "titulo": "Loopstudios landing page",
+        "descripcion": "Tecnologías: HTML, CSS, Reactjs. Realizado para un trabajo de facultad.",
+        "repo": "https://github.com/AraMilagros/loopstudios",
+        "demolive": "https://loppstudios.netlify.app/"
+    }
+]

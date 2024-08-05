@@ -1,12 +1,13 @@
 import React from 'react'
 
 import estilos from './estilos.module.css';
+// const imagen = require.context('../assets/img/mobile', true);
 
 export default function index(props) {
   return (
     <div className={estilos.contenedor}>
       <div className={estilos.contenedor__img}>
-        <img src={props.logo} alt="img formacion"/>
+        <img src={props.logo} alt="img formacion" />
       </div>
       <div className={estilos.contenedor__text}>
         <h3>{props.titulo}</h3>
