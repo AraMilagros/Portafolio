@@ -1,7 +1,7 @@
 import React from 'react'
 
-import hard from '../../assets/json/hardskill.json';
-import soft from '../../assets/json/softskill.json';
+import hard from './json/hardskill.json';
+import soft from './json/softskill.json';
 import ItemSkill from '../../components/ItemSkill';
 import estilos from './estilos.module.css';
 export default function index() {

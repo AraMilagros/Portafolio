@@ -2,4 +2,17 @@
     border:2px solid blue;
     width: calc(100vw - 15em);
     height: 85vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contenedor__estudios{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* align-items: center; */
+    gap: 2em;
 }

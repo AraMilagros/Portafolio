@@ -1,0 +1,11 @@
+.contenedor{
+    border:2px solid red;
+}
+
+.contenedor__img{
+    width: 250px;
+}
+
+.contenedor__img img{
+    width: 100%;
+}

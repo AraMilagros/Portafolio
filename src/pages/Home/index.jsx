@@ -1,7 +1,7 @@
 import React from 'react'
 
 import estilos from './estilos.module.css';
-import img1 from '../../assets/img/girl1c.png';
+import img1 from './girl1c.png';
 export default function index() {
   return (
 
