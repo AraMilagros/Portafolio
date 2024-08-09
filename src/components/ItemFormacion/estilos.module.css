@@ -1,23 +1,20 @@
 .contenedor{
-    /* border:2px solid white; */
     display: flex;
     flex-direction: column;
-    /* justify-content: space-around; */
     text-align: center;
     transition: all .5s ease;
     padding: 1.5em;
     border-radius: 15px;
+    background: var(--colorSecundario);
+    color: var(--colorPrimario);
 }
 
 .contenedor:hover{
     transform: scale(1.1);
-    background: wheat;
     color: black;
 }
 
 .contenedor__img{
-    /* width: 140px;
-    margin: auto; */
     margin: 0 auto;
     width: 200px;
     height: 140px;
@@ -30,8 +27,6 @@
 }
 
 .text__tittle, .text__descripcion{
-    /* border:2px solid white; */
-    /* display: flex; */
     width: max-content;
     max-width: 250px;
     margin: auto;

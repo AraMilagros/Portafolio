@@ -10,7 +10,7 @@ export default function index(props) {
         <img src={imagen(props.logo)} alt="img formacion" />
       </div>
       <div className={estilos.contenedor__text}>
-        <h3 className={estilos.text__tittle}>{props.titulo}</h3>
+        <h4 className={estilos.text__tittle}>{props.titulo}</h4>
         <p className={estilos.text__descripcion}>{props.descripcion}</p>
       </div>
     </div>

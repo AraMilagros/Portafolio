@@ -7,7 +7,7 @@ export default function index() {
   return (
     <div className={estilos.contenedor}>
       <h2>Proyectos</h2>
-      <div>
+      <div className={estilos.contenedor__proyectos}>
         {
           proyecto.map((item, id) => {
             return (

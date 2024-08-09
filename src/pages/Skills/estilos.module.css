@@ -1,16 +1,16 @@
 .contenedor{
-    border:2px solid blue;
-    /* width: 100%; */
-    width: calc(100vw - 15em);
+    background: var(--background);
+    color: var(--textoPrincipal);
+    width: calc(100vw - 20em);
+    height: calc(100vh - 6em);
     padding: 4em;
-    height: 85vh;
     text-align: center;
     overflow-y: scroll;
 }
 
 .contenedor__tittle{
-    border:2px solid white;
-    margin-bottom: 2em;
+    margin-bottom: 1em;
+    color:var(--textoPrincipal);
 }
 
 .contenedor h2:nth-of-type(2){
@@ -20,6 +20,6 @@
 .contenedor__hardskill, .contenedor__softskill{
     display: flex;
     flex-wrap: wrap;
-    gap: 15px;
-    justify-content: space-between;
+    gap: 2em;
+    justify-content: space-evenly;
 }

@@ -5,10 +5,7 @@
 }
 
 body{
-    /* background: #132147; */
-    background: #2f4156;
-    /* background: #f5efeb; */
-    color: #f5efeb;
+    background: var(--textoSecundario);
 }
 
 ul,
@@ -17,5 +14,40 @@ li {
 }
 a {
     text-decoration: none;
-    color: var(--cor-de-link);
+    color: var(--textoPrincipal);
+}
+
+/* SCROOLL-BEHAVIOR PERMITE UN DESLIZAMIENTO SUAVE AL MOMENTO DE IR A X SECCION POR MEDIO DEL MENU */
+/* Y LUEGO SE ESTABLECE UN TAMAÑO DE FUENTE BASE PARA TODO EL HTML  */
+html{
+    font-size: 14px;
+}
+
+body {
+    font-family: "Arvo";
+    font-size: 1rem;
+}
+/*! ESTILOS PARA AJUSTAR EL TAMAÑO DE LAS LETRAS SEGUN LA RESOLUCION DE LA PANTALLA */
+h1{
+    font-size: 3rem;
+}
+h2{
+    font-size: 2.5rem;
+}
+h3{
+    font-size: 2rem;
+}
+h4{
+    font-size: 1.5rem;
+}
+p{
+    font-size: 1rem;
+}
+li{
+    font-size: 1rem;
+}
+
+button{
+    font-size: 1.2rem;
+    letter-spacing: .2ch;
 }

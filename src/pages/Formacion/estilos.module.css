@@ -1,11 +1,12 @@
 .contenedor{
-    border:2px solid blue;
-    width: calc(100vw - 15em);
-    height: 85vh;
+    background: var(--background);
+    color: var(--textoPrincipal);
+    width: calc(100vw - 20em);
+    height: calc(100vh - 6em);
 
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
 }
 
@@ -13,6 +14,5 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    /* align-items: center; */
     gap: 2em;
 }

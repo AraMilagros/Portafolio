@@ -23,8 +23,22 @@
     {
         "logo": "./loopstudios.png",
         "titulo": "Loopstudios landing page",
-        "descripcion": "Tecnologías: HTML, CSS, Reactjs. Realizado para un trabajo de facultad.",
+        "descripcion": "Tecnologías: HTML, CSS, Reactjs. Challenge Frontend Mentor",
         "repo": "https://github.com/AraMilagros/loopstudios",
         "demolive": "https://loppstudios.netlify.app/"
+    },
+    {
+        "logo": "./alurageek.jpeg",
+        "titulo": "AluraGeek",
+        "descripción": "Tecnologías: HTML, CSS, JS, ReactJS. Challenge Oracle",
+        "repo": "https://github.com/AraMilagros/Challenge-AluraGeek.git",
+        "demolive": "https://alurageekchallenge.netlify.app/"
+    },
+    {
+        "logo": "./aluraflix.jpeg",
+        "titulo": "AluraFlix",
+        "descripcion": "Tecnologías: HTML, CSS y Javascript. Challenge Oracle",
+        "repo": "https://github.com/AraMilagros/AluraFlix-Challenge.git",
+        "demolive": "https://aluraflixchallenge.netlify.app/"
     }
 ]

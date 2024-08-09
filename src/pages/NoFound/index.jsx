@@ -1,7 +1,8 @@
 import React from 'react'
+import estilos from './estilos.module.css';
 
 export default function index() {
   return (
-    <div>no encontrado</div>
+    <div className={estilos.contenedor}>no encontrado</div>
   )
 }

@@ -1,6 +1,17 @@
 .contenedor{
     border:2px solid blue;
     width: calc(100vw - 15em);
-    height: 85vh;
+    height: calc(100vh - 5em);
     overflow-y: scroll;
+    text-align: center;
+    padding-top: 2em;
+}
+
+.contenedor__proyectos{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 3em;
+    padding: 2em;
 }

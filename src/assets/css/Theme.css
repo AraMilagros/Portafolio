@@ -1,0 +1,17 @@
+[data-theme='light']{
+    --background: #FFFFFF;
+    --colorPrimario: #3282b8;
+    --colorSecundario: #bbe1fa;
+    --colorAcento: #f07a9c;
+    --textoPrincipal: #1a1a2e;
+    --textoSecundario: #4f4f4f;
+}
+
+[data-theme='dark']{
+    --background: #1a1a2e;
+    --colorPrimario: #0f4c75;
+    --colorSecundario: #bbe1fa;
+    --colorAcento: #f07a9c;
+    --textoPrincipal: #e0e0e0;
+    --textoSecundario: #b5b5b5;
+}

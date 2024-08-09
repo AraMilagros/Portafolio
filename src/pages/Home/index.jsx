@@ -8,9 +8,9 @@ export default function index() {
     <div id="/" className={estilos.contenedor}>
 
       <div className={estilos.contenedor__descripcion}>
-        <h2>¡Hola! Mi nombre es <strong>Araceli</strong> y construyo páginas web</h2>
-        <h3>Estoy formada en los lenguajes de programación como Javascript y Java, y
-          actualmente estoy participando del proyecto Oracle ONE en Alura Latam.</h3>
+        <h3>¡Hola! Mi nombre es <strong>Araceli</strong> y construyo páginas web</h3>
+        <h4>Estoy formada en los lenguajes de programación como Javascript y Java, y
+          actualmente estoy participando del proyecto Oracle ONE en Alura Latam.</h4>
       </div>
 
       <div className={estilos.contenedor__network}>

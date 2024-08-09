@@ -13,7 +13,7 @@ export default function index() {
           <Outlet />
         </Contenedor>
       </main>
-      <Footer />
+      {/* <Footer /> */}
     </>
 
   )
