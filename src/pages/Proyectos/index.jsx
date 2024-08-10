@@ -5,7 +5,7 @@ import proyecto from './json/projects.json';
 import ItemProyecto from '../../components/ItemProyecto';
 export default function index() {
   return (
-    <div className={estilos.contenedor}>
+    <div id="proyectos" className={estilos.contenedor}>
       <h2>Proyectos</h2>
       <div className={estilos.contenedor__proyectos}>
         {
