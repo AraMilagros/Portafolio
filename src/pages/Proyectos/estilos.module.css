@@ -1,10 +1,11 @@
 .contenedor{
-    border:2px solid blue;
-    width: calc(100vw - 15em);
-    height: calc(100vh - 5em);
+    background: var(--background);
+    color: var(--textoPrincipal);
+    width: calc(100vw - 20em);
+    height: calc(100vh - 6em);
     overflow-y: scroll;
     text-align: center;
-    padding-top: 2em;
+    padding-top: 2.5em;
 }
 
 .contenedor__proyectos{

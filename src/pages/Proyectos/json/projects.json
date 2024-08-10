@@ -30,7 +30,7 @@
     {
         "logo": "./alurageek.jpeg",
         "titulo": "AluraGeek",
-        "descripción": "Tecnologías: HTML, CSS, JS, ReactJS. Challenge Oracle",
+        "descripcion": "Tecnologías: HTML, CSS, JS, ReactJS. Challenge Oracle",
         "repo": "https://github.com/AraMilagros/Challenge-AluraGeek.git",
         "demolive": "https://alurageekchallenge.netlify.app/"
     },

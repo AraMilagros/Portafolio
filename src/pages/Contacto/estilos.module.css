@@ -1,4 +1,74 @@
-.contenedor{
-    border:2px solid blue;
-    height: calc(100vh - 5em);
+.contenedor {
+    background: var(--background);
+    color: var(--textoPrincipal);
+    width: calc(100vw - 20em);
+    height: calc(100vh - 6em);
+    padding: 4em;
+
+}
+
+.formcontacto__text {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+}
+
+.formcontacto__title,
+.formcontacto__subtext {
+    text-align: center;
+}
+
+.formcontacto__form {
+    padding: 2em 0;
+    margin-top: 2.5em;
+
+    display: grid;
+    grid-template-columns:repeat(2, auto);
+    align-items: self-start;
+    justify-content: space-evenly;
+    gap: 2.5em;
+
+}
+
+.formcontacto__field{
+    /* border:2px solid white; */
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+}
+
+.formcontacto__field label{
+    margin-bottom: 1em;
+}
+
+.formcontacto__field input {
+    background: var(--background);
+    color: var(--textoPrincipal);
+    width: 18em;
+    height: 2.5em;
+    border: none;
+    border-bottom: 2px solid var(--textoPrincipal);
+    padding-left: 1em;
+}
+
+.formcontacto__field input:focus {
+    outline: none;
+}
+#message{
+    padding-top: 1em;
+    padding-left: 1em;
+}
+.formcontato__btn{
+    height: 2em;
+    border-radius: 5px;
+    background: var(--colorAcento);
+    color: var(--textoPrincipal);
+    border: 2px solid var(--colorAcento);
+    transition: all .5s ease;
+    cursor: pointer;
+}
+
+.formcontato__btn:hover{
+    background: var(--background);
+    color: var(--colorAcento);
 }
