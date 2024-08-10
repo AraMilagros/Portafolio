@@ -14,9 +14,9 @@ export default function AppRoutes(){
             <Routes>
                 <Route path="/" element={ <PaginaBase/> }>
                     <Route path="/" element={ <Home /> }/>
-                    <Route path="/skills" element={ <Skill/> } />
-                    <Route path='/estudios' element={ <Formacion /> }/>
-                    <Route path='/proyectos' element={ <Proyectos /> } />
+                    <Route path="skills" element={ <Skill/> } />
+                    <Route path='estudios' element={ <Formacion /> }/>
+                    <Route path='proyectos' element={ <Proyectos /> } />
                     <Route path='contacto/' element={ <Contacto />  } />
                     <Route path='*' element={ <NotFound/> } />
                 </Route>

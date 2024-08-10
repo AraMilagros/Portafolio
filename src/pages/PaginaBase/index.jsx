@@ -6,15 +6,11 @@ import { Outlet } from "react-router-dom"
 import estilos from './estilos.module.css';
 export default function index() {
   return (
-    <>
       <main className={estilos.contenedor}>
         <Menu />
         <Contenedor>
           <Outlet />
         </Contenedor>
       </main>
-      {/* <Footer /> */}
-    </>
-
   )
 }
