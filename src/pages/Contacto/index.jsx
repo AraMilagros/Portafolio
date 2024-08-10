@@ -96,7 +96,7 @@ export default function index() {
   // luego en cada input hay un onChange encargado de capturar lo que el usuario ingrese y actualize los usestates creados al principio
 
   return (
-    <div className={estilos.contenedor} id="contacto">
+    <div className={estilos.contenedor} id="/contacto">
       {/* <div className="formcontacto--esquerda">
         <img className="formcontato__img" src={img1} alt="Imagen de talha khalil en Pixabay" />
       </div> */}
