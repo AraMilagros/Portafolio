@@ -1,4 +1,36 @@
 .contenedor{
-    border:2px solid blue;
-    height: calc(100vh - 5em);
+    background: var(--background);
+    width: calc(100vw - 20em);
+    height: calc(100vh - 6em);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor__img{
+    width: 50%;
+    height: 50%;
+    display: flex;
+}
+
+.contenedor__img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center top;
+}
+
+.contenedor__text{
+    border:2px solid white;
+    padding: 2em;
+    background: var(--textoPrincipal);
+    color: var(--background);
+    text-align: center;
+    font-weight: 900;
+}
+
+.contenedor__text label{
+    font-size: 2em;
 }

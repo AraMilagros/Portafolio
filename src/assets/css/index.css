@@ -6,6 +6,8 @@
 
 body{
     background: var(--textoSecundario);
+    font-family: "Arvo";
+    font-size: 1rem;
 }
 
 ul,
@@ -21,11 +23,6 @@ a {
 /* Y LUEGO SE ESTABLECE UN TAMAÑO DE FUENTE BASE PARA TODO EL HTML  */
 html{
     font-size: 14px;
-}
-
-body {
-    font-family: "Arvo";
-    font-size: 1rem;
 }
 /*! ESTILOS PARA AJUSTAR EL TAMAÑO DE LAS LETRAS SEGUN LA RESOLUCION DE LA PANTALLA */
 h1{
@@ -50,4 +47,9 @@ li{
 button{
     font-size: 1.2rem;
     letter-spacing: .2ch;
+}
+
+.contenedor{
+    margin: 3em;
+    display: flex;
 }

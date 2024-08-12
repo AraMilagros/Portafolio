@@ -5,7 +5,7 @@ import formacion from './json/formacion.json';
 import ItemFormacion from '../../components/ItemFormacion';
 export default function index() {
   return (
-    <div className={estilos.contenedor} id="estudios">
+    <div className={estilos.contenedor} id="/formacion">
       <h2 className={estilos.contenedor__tittle}>Formación académica</h2>
       <div className={estilos.contenedor__estudios}>
         {

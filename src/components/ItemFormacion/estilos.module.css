@@ -5,24 +5,26 @@
     transition: all .5s ease;
     padding: 1.5em;
     border-radius: 15px;
-    background: var(--colorSecundario);
-    color: var(--colorPrimario);
+    background: #b5b5b5;
+    color: black;
+    border:2px solid #b5b5b5;
 }
 
 .contenedor:hover{
     transform: scale(1.1);
-    color: black;
+    color:black;
 }
 
 .contenedor__img{
     margin: 0 auto;
-    width: 200px;
-    height: 140px;
+    width: 150px;
+    height: 130px;
 }
 
 .contenedor__img img{
     width: 100%;
     object-fit: contain;
+    object-position: center bottom;
     height: 100%;
 }
 
@@ -34,7 +36,7 @@
 
 .text__tittle{
     margin-top: 2em;
-    border-top: 2px solid white;
+    border-top: 2px solid black;
     padding-top: 1em;
 }
 

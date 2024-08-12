@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-
+import { Link } from "react-router-dom";
 import estilos from "./estilos.module.css";
 export default function index() {
     const [bandera, setBandera] = useState(true);
@@ -26,45 +26,45 @@ export default function index() {
             <div id={estilos.categorias}>
                 <div className={estilos.categoria__item}>
                     <div className={estilos.item__icon}>
-                        <a href="/">
+                        <Link to="/">
                             <i className="fa-solid fa-house"></i>
-                        </a>
+                        </Link>
                     </div>
 
                     <div className={estilos.categoria__label}>
-                        <a href="/">Principal</a>
+                        <Link to="/">Principal</Link>
                     </div>
                 </div>
                 <div className={estilos.categoria__item}>
                     <div className={estilos.item__icon}>
-                        <a href="/skills"><i className="fa-solid fa-code"></i></a>
+                        <Link to="/skills"><i className="fa-solid fa-code"></i></Link>
                     </div>
                     <div className={estilos.categoria__label}>
-                        <a href="/skills">Skills</a>
+                        <Link to="/skills">Skills</Link>
                     </div>
                 </div>
                 <div className={estilos.categoria__item}>
                     <div className={estilos.item__icon}>
-                        <a href="/estudios"><i className="fa-solid fa-graduation-cap"></i></a>
+                        <Link to="/estudios"><i className="fa-solid fa-graduation-cap"></i></Link>
                     </div>
                     <div className={estilos.categoria__label}>
-                        <a href="/estudios">Estudios</a>
+                        <Link to="/estudios">Estudios</Link>
                     </div>
                 </div>
                 <div className={estilos.categoria__item}>
                     <div className={estilos.item__icon}>
-                        <a href="/proyectos"><i className="fa-solid fa-terminal"></i></a>
+                        <Link to="/proyectos"><i className="fa-solid fa-terminal"></i></Link>
                     </div>
                     <div className={estilos.categoria__label}>
-                        <a href="/proyectos">Proyectos</a>
+                        <Link to="/proyectos">Proyectos</Link>
                     </div>
                 </div>
                 <div className={estilos.categoria__item}>
                     <div className={estilos.item__icon}>
-                        <a href="/contacto"><i className="fa-solid fa-envelope"></i></a>
+                        <Link to="/contacto"><i className="fa-solid fa-envelope"></i></Link>
                     </div>
                     <div className={estilos.categoria__label}>
-                        <a href="/contacto">Contacto</a>
+                        <Link to="/contacto">Contacto</Link>
                     </div>
                 </div>
             </div>
