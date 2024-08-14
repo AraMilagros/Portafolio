@@ -69,3 +69,41 @@
 .sobremi__img img{
     width: 100%;
 }
+
+@media screen and (max-width: 768px){
+    .contenedor{
+        width: 100%;
+        height: 100vh;
+
+    }
+
+    .contenedor__network{
+        border:2px solid red;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contenedor__descripcion{
+        border:2px solid white;
+        width: 100%;
+    }
+    .contenedor__descripcion h3{
+        font-size: 1.5em;
+        margin-bottom: 1em;
+    }
+    .contenedor__descripcion h4{
+        font-size: 1em;
+    }
+
+    .contenedor__sobremi{
+        border:2px solid salmon;
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 420px){
+    .sobremi__img{
+        display: none;
+    }
+}

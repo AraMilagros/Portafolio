@@ -6,7 +6,6 @@ export default function index() {
   return (
 
     <div id="/" className={estilos.contenedor}>
-
       <div className={estilos.contenedor__descripcion}>
         <h3>¡Hola! Mi nombre es <strong>Araceli</strong> y construyo páginas web</h3>
         <h4>Estoy formada en los lenguajes de programación como Javascript y Java, y

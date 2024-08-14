@@ -43,7 +43,6 @@
     padding: 1em .5em;
 }
 
-
 .theme{
     display: flex;
     align-items: center;
@@ -86,4 +85,33 @@
 }
 #btn_check{
     display: none;
+}
+
+@media screen and (max-width: 768px){
+    .div{
+        position: absolute;
+        height: 4em;
+        width: 100%;
+        bottom: 0;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #categorias{
+        display: flex;
+        width: 100%;
+        justify-content: space-evenly;
+        /* align-items: center; */
+        padding: 0 1em;
+    }
+    .categoria__item{
+        width: max-content;
+        margin: 0;
+        margin-bottom: 1em;
+    }
+    .theme, .categoria__label, .footer{
+        display: none;
+    }
+    
 }

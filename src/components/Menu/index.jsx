@@ -1,28 +1,13 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import estilos from "./estilos.module.css";
+import ThemeSwitch from '../ThemeSwitch';
+
 export default function index() {
-    const [bandera, setBandera] = useState(true);
-
-    const cambiarTheme = () => {
-        bandera ? document.body.setAttribute('data-theme', 'light') : document.body.setAttribute('data-theme', 'dark');
-
-        setBandera(!bandera);
-    }
-
     return (
         <div className={estilos.div}>
-            <section className={estilos.theme}>
-                {/* <p>Dark Mode</p> */}
-                <label>Light</label>
-                <div className={estilos.theme__btn}>
-                    <input id={estilos.btn_check}
-                        type="checkbox" onClick={cambiarTheme}></input>
-                    <label htmlFor={estilos.btn_check} className={estilos.lbl_check}></label>
-                </div>
-                <label>Dark</label>
-            </section>
-
+            {/* <ThemeSwitch /> */}
+            {window.innerWidth > '768' ? <ThemeSwitch /> : <></>}
             <div id={estilos.categorias}>
                 <div className={estilos.categoria__item}>
                     <div className={estilos.item__icon}>

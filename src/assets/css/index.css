@@ -53,3 +53,9 @@ button{
     margin: 3em;
     display: flex;
 }
+
+@media screen and (max-width: 768px){
+    .contenedor{
+        margin: 0;
+    }
+}
