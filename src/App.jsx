@@ -14,16 +14,15 @@ export default function App() {
     return(
         <main className="contenedor">
             {window.innerWidth < '1024' ? <NavMovil /> : <></>}
-            {/* <NavMovil /> */}
             <Menu />
                 <React.StrictMode>
                     <Routes>
                         <Route path="/" element={ <Home/> }/>
-                        {/*<Route path="/skills" element={ <Skills/> } />
+                        <Route path="/skills" element={ <Skills/> } />
                         <Route path="/estudios" element={ <Formacion/> }/>
                         <Route path="/proyectos" element={ <Proyecto/> } />
                         <Route path="/contacto" element={ <Contacto/> } />
-                        <Route path="/*" element={ <NotFound/> } /> */}
+                        <Route path="/*" element={ <NotFound/> } />
                     </Routes>
                 </React.StrictMode>
         </main>

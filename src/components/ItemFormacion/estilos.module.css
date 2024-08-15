@@ -10,11 +10,6 @@
     border:2px solid #b5b5b5;
 }
 
-.contenedor:hover{
-    transform: scale(1.1);
-    color:black;
-}
-
 .contenedor__img{
     margin: 0 auto;
     width: 150px;
@@ -43,3 +38,29 @@
 .text__descripcion{
     margin-top: 1.5em;
 }
+
+/* para dispositivos moviles */
+/* 320px - 480px */
+@media screen and (max-width: 480px) {}
+
+/* para ipad tabletas */
+/* 481px - 768px  */
+@media screen and ((min-width: 481px) and (max-width: 768px)) {}
+
+/* pantallas pequeñas, laptop */
+/* 769px - 1024px  */
+@media screen and ((min-width: 769px) and (max-width: 1024px)) {}
+
+/* pc de escritorio, pantallas grandes */
+/* 1025px - 1200px */
+@media screen and ((min-width: 1025px) and (max-width: 1200px)) {}
+
+/* para efectos de hover y solo sean aplicados cuando se trate de pantallas de pc */
+@media screen and (min-width: 769px) {
+    .contenedor:hover{
+        transform: scale(1.1);
+        color:black;
+    }
+    
+}
+

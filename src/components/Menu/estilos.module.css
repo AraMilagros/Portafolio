@@ -1,6 +1,6 @@
 @import url('../../assets/css/Theme.css');
 
-.div{
+.div {
     position: static;
     padding: 1em;
     padding-top: 2em;
@@ -10,51 +10,46 @@
     justify-content: space-between;
     transition: all .5s ease;
     background: var(--colorPrimario);
-    color:var(--textoPrincipal);
+    color: var(--textoPrincipal);
 }
 
-#categorias{
+#categorias {
     width: 130px;
 }
 
-#categorias.active{
+#categorias.active {
     width: 50px;
 }
 
-.categoria__item{
+.categoria__item {
     padding: 1em .5em;
     width: 130px;
     margin: .5em 0;
 
     display: flex;
-    justify-content: space-between; 
+    justify-content: space-between;
     cursor: pointer;
     transition: all .5s ease;
 }
 
-.categoria__item:hover{
-    background: var(--background);
-    width: 150px;
-}
-
-.footer{
+.footer {
     padding-left: .5em;
     color: var(--colorAcento);
     padding: 1em .5em;
 }
 
-.theme{
+.theme {
     display: flex;
     align-items: center;
     padding: .5em;
 }
 
-.theme label{
+.theme label {
     font-size: .9em;
     margin: 0 .2em;
 }
 
-.lbl_check{
+.lbl_check {
     display: inline-block;
     width: 50px;
     height: 25px;
@@ -64,31 +59,58 @@
     cursor: pointer;
 }
 
-#btn_check:checked~ .lbl_check{
+#btn_check:checked~.lbl_check {
     background: var(--textoPrincipal);
 }
 
-.lbl_check::after{
+.lbl_check::after {
     position: absolute;
     content: '';
     width: 18px;
     height: 18px;
     background: var(--background);
     border-radius: 100px;
-    top:3px;
-    left:25px;
+    top: 3px;
+    left: 25px;
     transform: .3s;
 }
 
-#btn_check:checked~ .lbl_check::after{
-    left:6px;
+#btn_check:checked~.lbl_check::after {
+    left: 6px;
 }
-#btn_check{
+
+#btn_check {
     display: none;
 }
 
-@media screen and (max-width: 768px){
-    .div{
+/* para dispositivos moviles */
+/* 320px - 480px */
+@media screen and (max-width: 480px) {}
+
+/* para ipad tabletas */
+/* 769px - 768px  */
+@media screen and ((min-width: 481px) and (max-width: 768px)) {}
+
+/* pantallas pequeñas, laptop */
+/* 769px - 1024px  */
+@media screen and ((min-width: 769px) and (max-width: 1024px)) {}
+
+/* pc de escritorio, pantallas grandes */
+/* 1025px - 1200px */
+@media screen and ((min-width: 1025px) and (max-width: 1200px)) {}
+
+
+/* para efectos de hover y solo sean aplicados cuando se trate de pantallas de pc */
+@media screen and (min-width: 769px) {
+    .categoria__item:hover {
+        background: var(--background);
+        width: 150px;
+    }
+}
+
+/* pantallas desde ipads a dispositivos moviles  */
+@media screen and (max-width: 768px) {
+    .div {
         position: absolute;
         height: 4em;
         width: 100%;
@@ -97,21 +119,24 @@
         justify-content: center;
         align-items: center;
     }
-    
-    #categorias{
+
+    #categorias {
         display: flex;
         width: 100%;
         justify-content: space-evenly;
         /* align-items: center; */
         padding: 0 1em;
     }
-    .categoria__item{
+
+    .categoria__item {
         width: max-content;
         margin: 0;
         margin-bottom: 1em;
     }
-    .theme, .categoria__label, .footer{
+
+    .theme,
+    .categoria__label,
+    .footer {
         display: none;
     }
-    
 }

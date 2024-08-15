@@ -143,7 +143,8 @@ export default function index() {
           </div>
           <div className={estilos.formcontacto__field}>
             <label>Mensaje</label>
-            <textarea className="formcontato__textarea formcontato__input"
+            {/* formcontato__textarea formcontato__input */}
+            <textarea className={estilos.formcontacto__field}
               rows="8" cols="40" id={estilos.message}
               name="mensaje"
               onChange={(e) => setMensaje(e.target.value)}

@@ -1,6 +1,6 @@
 /* @import '../../assets/css/Theme.css'; */
 
-.contenedor{
+.contenedor {
     width: calc(100vw - 20em);
     height: calc(100vh - 6em);
     padding: 4em;
@@ -13,97 +13,124 @@
     color: var(--textoPrincipal);
 }
 
-.contenedor__descripcion{
+.contenedor__descripcion {
     /* border:2px solid white; */
     width: 80%;
 }
 
-.contenedor__descripcion strong{
+.contenedor__descripcion strong {
     color: var(--colorAcento);
 }
 
-/* .contenedor__network{
-    border:2px solid red;
-} */
-
-.network__ul{
+.network__ul {
     display: flex;
     gap: 2em;
     font-size: 1.1em;
 }
-.network__ul li i{
+
+.network__ul li i {
     margin-right: .3em;
 }
 
-.network__ul li a{
+.network__ul li a {
     transition: all .5s ease;
 }
 
-.network__ul li a:hover{
-    color: var(--colorAcento);
-}
-
-.contenedor__sobremi{
-    /* border:2px solid white; */
+.contenedor__sobremi {
     width: 80%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.sobremi__texto{
+.sobremi__texto {
     flex: 2 2 0;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.sobremi__img{
+
+.sobremi__img {
     max-width: 250px;
     flex: 1 1 0;
 }
-.sobremi__p{
-    /* border:2px solid red; */
+
+.sobremi__p {
     text-align: justify;
     width: 90%;
 }
-.sobremi__img img{
+
+.sobremi__img img {
     width: 100%;
 }
 
-@media screen and (max-width: 768px){
-    .contenedor{
-        width: 100%;
-        height: 100vh;
-
-    }
-
-    .contenedor__network{
-        border:2px solid red;
-        justify-content: center;
-        align-items: center;
-    }
-
+/* para dispositivos moviles */
+/* 320px - 480px */
+@media screen and (max-width: 480px) {
     .contenedor__descripcion{
-        border:2px solid white;
-        width: 100%;
+        text-align: justify;
     }
     .contenedor__descripcion h3{
-        font-size: 1.5em;
+        font-size: 1.7em;
         margin-bottom: 1em;
     }
     .contenedor__descripcion h4{
-        font-size: 1em;
+        font-size: 1.2em;
+    }
+    .sobremi__p{
+        width: 100%;
+    }
+}
+
+/* para ipad tabletas */
+/* 481px - 768px  */
+@media screen and ((min-width: 481px) and (max-width: 768px)) {
+    .contenedor__descripcion h3{
+        margin-bottom: 2em;
+    }
+    .sobremi__p{
+        font-size: 1.3em;
     }
 
-    .contenedor__sobremi{
-        border:2px solid salmon;
+    .network__ul li{
+        font-size: 1.5em;
+    }
+
+    .network__ul li a{
+        display: flex;
+        flex-direction: column;
+    }
+    .network__ul li i{
+        margin-bottom: .5em;
+    }
+}
+
+/* para efectos de hover y solo sean aplicados cuando se trate de pantallas de pc */
+@media screen and (min-width: 769px) {
+    .network__ul li a:hover {
+        color: var(--colorAcento);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .contenedor {
+        width: 100%;
+        height: 100vh;
+        overflow-y: scroll;
+    }
+
+    .contenedor__descripcion {
+        width: 100%;
+    }
+    
+    .contenedor__sobremi {
         width: 100%;
     }
 
 }
 
-@media screen and (max-width: 420px){
-    .sobremi__img{
+@media screen and (max-width: 420px) {
+    .sobremi__img {
         display: none;
     }
 }
