@@ -136,4 +136,11 @@
     .sobremi__img {
         display: none;
     }
+    .contenedor{
+        padding: 5.5em 1em;
+        overflow: scroll;
+    }
+    .network__ul{
+        margin:1em 0;
+    }
 }
